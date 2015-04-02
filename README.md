@@ -1,5 +1,4 @@
 BattleShips MVP Sequence
-======================
 
 We are building a web interface for battleships.
 We cloned a fully working battleships game so that we could focus on building the interface

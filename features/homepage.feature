@@ -13,3 +13,10 @@ Feature: displays homepage
     And they press the "register" button
     Then they see "Welcome Bob, lets do some shooting!"
     And they see a "battleships_grid" table
+
+  Scenario: They can fire a shot
+    Given a user is on the game page
+    When they fill in "A1" in coord_input field
+    And they press the "FIRE" button
+    And they come back to game page
+    Then they see "Misses: 1"
